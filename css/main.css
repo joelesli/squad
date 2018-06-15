@@ -3,11 +3,12 @@ body {
   padding-bottom: 20px;
   font-size: 18px;
   font-weight: 300;
+  color: #141923;
 }
 
 .badge-primary {
     color: #fff;
-    background-color: #ff8702;
+    background-color: #BA68C8;
 }
 
 div.padding {
@@ -33,11 +34,11 @@ div.padding {
 
 .jumbotron {
   background: #ff2701; /* Old browsers */
-  background: -moz-linear-gradient(45deg, #ff2701 0%, #ff8702 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #ff2701 0%,#ff8702 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, #ff2701 0%,#ff8702 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2701', endColorstr='#ff8702',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-  color: white;
+  background: -moz-linear-gradient(45deg, #F6FDDB 0%, #F6FDDB 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #F6FDDB 0%, #D8FFDC 100%);  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #F6FDDB 0%, #D8FFDC 100%);  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F6FDDB', endColorstr='#F6FDDB',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  color: #141923;
   border-radius: 0rem;
 }
 
@@ -48,10 +49,10 @@ div.padding {
 
 .jumbo-2 {
   background: #ff2701; /* Old browsers */
-  background: -moz-linear-gradient(45deg, #ff2701 0%, #c96dd8 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #ff2701 0%,#c96dd8 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, #ff2701 0%,#c96dd8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2701', endColorstr='#c96dd8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background: -moz-linear-gradient(45deg, #F6FDDB 0%, #F6FDDB 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #F6FDDB 0%, #D8FFDC 100%);  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #F6FDDB 0%, #D8FFDC 100%);  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F6FDDB', endColorstr='#F6FDDB',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   border-radius: 0;
 }
 
@@ -71,7 +72,7 @@ img.img-gif {
 }
 
 a, a:hover, a::after, a::before {
-  color: #ff8702;
+  color: #BA68C8;
   text-decoration: none;
 }
 
