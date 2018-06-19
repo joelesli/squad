@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="Joel Martinez joel.martinez@deutschebahn.com">
 
-    <title>Squad AI | Your teams and projects in one place.</title>
+    <title>Squad | die Richtigen finden</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,7 +30,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <img src="img/logo1.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-      <a class="navbar-brand" href="https://squad-ai.com">Squad AI</a>
+      <a class="navbar-brand" href="https://squad-ai.com"> Squad</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -41,12 +41,12 @@
             <a class="nav-link" href="landingpage.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">My Projects</a>
+            <a class="nav-link" href="index.html">Meine Projekte</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Topic, ...">
-          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+          <input class="form-control mr-sm-2" type="search" placeholder="Thema, ...">
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">suchen</button>
         </form>
       </div>
     </nav>
@@ -65,10 +65,10 @@
             <form>
               <div class="form-row">
                 <div class="col-12 col-md-9 mb-2 mb-md-0">
-                  <input type="email" class="form-control form-control-lg" placeholder="Thema, Person, Tech,...">
+                  <input type="email" class="form-control form-control-lg" placeholder="Thema, Person, Technologie,...">
                 </div>
                 <div class="col-12 col-md-3">
-                  <button type="submit" class="btn btn-block btn-lg btn-primary">Suche</button>
+                  <button type="submit" class="btn btn-block btn-lg btn-primary">suchen</button>
                 </div>
               </div>
             </form>
@@ -85,8 +85,9 @@
         <div class="col-lg-4">
         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
-            <%= fa_icon "rocket", class:"m-auto text-primary" %>
-            <%# <i class="icon-screen-desktop m-auto text-primary"></i> %>
+            <!-- <%= fa_icon "rocket", class:"m-auto text-primary" %> -->
+            <i class="icon-rocket m-auto text-primary"></i>
+            <!-- <i class="icon-screen-desktop m-auto text-primary"></i> -->
             </div>
             <h3>Smartes Matching</h3>
             <p class="lead mb-0">Projekte schnell mit den richtigen Experten verbinden</p>
@@ -95,8 +96,9 @@
         <div class="col-lg-4">
         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
-            <%= fa_icon "file", class:"m-auto text-primary" %>
-            <%# <i class="icon-layers m-auto text-primary"></i> %>
+            <!-- <%= fa_icon "file", class:"m-auto text-primary" %> -->
+            <i class="icon-size-actual m-auto text-primary"></i>
+            <!-- <i class="icon-layers m-auto text-primary"></i> -->
             </div>
             <h3>Überblick</h3>
             <p class="lead mb-0">Mitarbeiter können proaktiv nach Einsätzen suchen</p>
@@ -105,8 +107,8 @@
         <div class="col-lg-4">
         <div class="features-icons-item mx-auto mb-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
-            <%= fa_icon "check-circle", class:"m-auto text-primary" %>
-            <%# <i class="icon-check m-auto text-primary"></i> %>
+            <!-- <%= fa_icon "check-circle", class:"m-auto text-primary" %> -->
+              <i class="icon-check m-auto text-primary"></i>
             </div>
             <h3>Informationen nutzen</h3>
             <p class="lead mb-0">Redundanzen vermeiden und die Vernetzung unter Experten vereinfachen</p>
@@ -119,50 +121,53 @@
     <!-- Image Showcases -->
     <section class="showcase">
       <div class="container-fluid p-0">
-        <div class="row no-gutters">
-
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
-          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>In sight</h2>
-            <p class="lead mb-0">
-              Bring together the key assets of your project so that the question
-              "what are you working on" is well answered.
-            </p>
-          </div>
-        </div>
+          <div class="row no-gutters">
+              <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
+              <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                <h2>Stay connected</h2>
+                <p class="lead mb-0">
+                  Jedes deiner Projekte ist verbunden mit deinem Team. Jeder Experte und dessen 
+                  Expertise ist verbunden mit seinen Projekten. Die Vernetzung zwischen Menschen 
+                  und Expertise hat eine große Auswirkung auf jeden der es nutzt und ermöglicht 
+                  das Wahrnehmen von neuen Chancen am Horizont. 
+                </p>
+              </div>
+            </div>
+        
         <div class="row no-gutters">
           <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
           <div class="col-lg-6 my-auto showcase-text">
             <h2>Integrated</h2>
             <p class="lead mb-0">
-              Use the best tools for your project and bring them all together.
-              Setup an integration once and let technology to do the work for you.
+              Verwende unseren besten Tools für dein 
+              Projekt und lass uns dich bei deiner Arbeit unterstützen.
             </p>
           </div>
         </div>
         <div class="row no-gutters">
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
-          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>Stay connected</h2>
-            <p class="lead mb-0">
-              Your project stands on the shoulders of other projects and other projects stand on your project. Connections between projects
-              help everyone see the impact we have and the people we need to inform when a big change is on the horizon.
-            </p>
+
+            <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
+            <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+              <h2>In sight</h2>
+              <p class="lead mb-0">
+                Sammle alle benötigten Informationen deines Projektes auf einer Plattform, 
+                so dass du nie wieder unnötig Zeit verlierst beim Durchsuchen deines organisatorischen Chaos.
+              </p>
+            </div>
           </div>
-        </div>
       </div>
     </section>
 
     <!-- Testimonials -->
     <section class="testimonials text-center bg-light">
       <div class="container">
-        <h2 class="mb-5">What people are saying...</h2>
+        <h2 class="mb-5">Was sagen unsere Nutzer …</h2>
         <div class="row">
           <div class="col-lg-4">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
               <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
               <h5>Margaret E.</h5>
-              <p class="font-weight-light mb-0">"This is fantastic! It's so much easier to onboard a colleague and inform stakeholders."</p>
+              <p class="font-weight-light mb-0">“Squad ist fantastisch! Es ist so viel einfacher genau die Personen zu finden die man gerade braucht."</p>
             </div>
           </div>
           <div class="col-lg-4">
@@ -170,7 +175,7 @@
               <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
               <h5>Fred S.</h5>
               <p class="font-weight-light mb-0">
-                "Squad is amazing. I've been using it to get feedback about our APIs and improve customer satisfaction."
+                  “Einfach klasse! Mit Squad kann ich ganz schnell nach Technologien suchen und genau sehen, welche Projekte damit gearbeitet haben.”
               </p>
             </div>
           </div>
@@ -179,8 +184,7 @@
               <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
               <h5>Sarah	W.</h5>
               <p class="font-weight-light mb-0">
-                "Thanks to Squad I am always ready to answer the question:
-                what is going on with your project?"
+                  “Mit der Hilfe von Squad kann ich bei jedem Meeting einfach auf meine Projektprofil Seite hinweisen und jeder weiß genau woran ich arbeite und wie der momentane Status meiner Verfügbarkeit ist.” 
               </p>
             </div>
           </div>
@@ -201,10 +205,10 @@
             <form>
               <div class="form-row">
                 <div class="col-12 col-md-9 mb-2 mb-md-0">
-                  <input type="email" class="form-control form-control-lg" placeholder="Topic, person, technology ...">
+                  <input type="email" class="form-control form-control-lg" placeholder="Thema, Person, Technologie ...">
                 </div>
                 <div class="col-12 col-md-3">
-                  <button type="submit" class="btn btn-block btn-lg btn-primary">Suche</button>
+                  <button type="submit" class="btn btn-block btn-lg btn-primary">suchen</button>
                 </div>
               </div>
             </form>
@@ -220,23 +224,23 @@
           <div class="col-lg-12 h-100 text-center text-lg-left my-auto">
             <ul class="list-inline mb-2">
               <li class="list-inline-item">
-                <a href="#">Open an account</a>
+                <a href="#">Registrieren</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="#">About</a>
+                <a href="#">Über uns</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="#">Contact</a>
+                <a href="#">Kontakt</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
+                <a href="#">AGBs</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
+                <a href="#">Datenschutz</a>
               </li>
             </ul>
             <p class="text-muted small mb-4 mb-lg-0">&copy; Squad 2018. All Rights Reserved.</p>
